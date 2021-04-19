@@ -11,7 +11,7 @@ CMV = zeros(15, 1);
 PUM = zeros(15, 15);
 FUV = zeros(15, 0);
 %%
-
+%%
 
 CMV(1) = lic0(POINTS, NUMPOINTS, PARAMETERS);
 CMV(2)=lic1(POINTS, NUMPOINTS, PARAMETERS.RADIUS1);
@@ -164,7 +164,7 @@ if (NUMPOINTS>=3)
     
 end
 end
-
+%%
 %% LIC 13
 function out = lic13(POINTS,NUMPOINTS,A_PTS,B_PTS,RADIUS1,RADIUS2)
 out=0;
