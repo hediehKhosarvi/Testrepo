@@ -165,6 +165,7 @@ if (NUMPOINTS>=3)
 end
 end
 
+%%
 %% LIC 13
 function out = lic13(POINTS,NUMPOINTS,A_PTS,B_PTS,RADIUS1,RADIUS2)
 out=0;
